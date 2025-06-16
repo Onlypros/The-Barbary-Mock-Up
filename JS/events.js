@@ -4,7 +4,7 @@ const eventsData = [
     day: "THU",
     time: "8:00 PM",
     artist: "Rodriguez Jr. / Ben Arsenal",
-    image: "images/Events/event_4_600x800.jpg",
+    image: "images/event-photos/event_4_600x800.jpg",
     tickets: "https://www.tixr.com/groups/thebarbary/events/rodriguez-jr-ben-arsenal-143340",
     reservations: "#"
   },
@@ -13,7 +13,7 @@ const eventsData = [
     day: "FRI",
     time: "10:00 PM",
     artist: "Space Jams vs. Tiger Beats",
-    image: "images/Events/resized_event_photos/resized_3668e2d5-ee72-460d-8026-bd2838afc39f.jpg",
+    image: "images/event-photos/resized_event_photos/resized_3668e2d5-ee72-460d-8026-bd2838afc39f.jpg",
     tickets: "https://www.tixr.com/groups/thebarbary/events/space-jams-vs-tiger-beats-145507",
     reservations: "#"
   },
@@ -22,7 +22,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "Francisco Allendes / Solar Sounds",
-    image: "images/Events/fa.jpg",
+    image: "images/event-photos/fa.jpg",
     tickets: "https://www.tixr.com/groups/thebarbary/events/francisco-allendes-solar-sounds-heph-145077",
     reservations: "#"
   },
@@ -31,7 +31,7 @@ const eventsData = [
     day: "FRI",
     time: "10:00 PM",
     artist: "The Bounce / Diamond District",
-    image: "images/Events/dd.jpg",
+    image: "images/event-photos/dd.jpg",
     tickets: "https://www.tixr.com/groups/thebarbary/events/the-bounce-diamond-district-145957",
     reservations: "#"
   },
@@ -40,7 +40,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "Sasha /// Into the Groove",
-    image: "images/Events/resized_event_photos/resized_9dc26f67-3e79-48a4-afd0-7e79138f8a7d.jpg",
+    image: "images/event-photos/resized_event_photos/resized_9dc26f67-3e79-48a4-afd0-7e79138f8a7d.jpg",
     tickets: "https://www.tixr.com/groups/thebarbary/events/sasha-into-the-groove-146255",
     reservations: "#"
   },
@@ -49,7 +49,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "MAUR / REALTY RECS / JITSU",
-    image: "images/Events/maur.jpg",
+    image: "images/event-photos/maur.jpg",
     tickets: "#",
     reservations: "#"
   },
@@ -58,7 +58,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "The Shakedown: Musclecars",
-    image: "images/Events/muscle.jpg",
+    image: "images/event-photos/muscle.jpg",
     tickets: "#",
     reservations: "#"
   },
@@ -67,7 +67,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "Anthony Attalla / Oscar N",
-    image: "images/Events/aa.jpg",
+    image: "images/event-photos/aa.jpg",
     tickets: "#",
     reservations: "#"
   },
@@ -76,7 +76,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "Gene Farris / REALTY RECORDS",
-    image: "images/Events/gene.jpg",
+    image: "images/event-photos/gene.jpg",
     tickets: "#",
     reservations: "#"
   },
@@ -85,7 +85,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "Enamour / The Shakedown",
-    image: "images/Events/enamour.jpg",
+    image: "images/event-photos/enamour.jpg",
     tickets: "#",
     reservations: "#"
   },
@@ -94,7 +94,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "Justin Martin / Luna Mar / IN",
-    image: "images/Events/jm.jpg",
+    image: "images/event-photos/jm.jpg",
     tickets: "#",
     reservations: "#"
   },
@@ -103,7 +103,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "Nicole Moudaber / G I N A",
-    image: "images/Events/resized_event_photos/resized_6baddd47-49e0-40e5-b291-ce5fe282ed91.png",
+    image: "images/event-photos/resized_event_photos/resized_6baddd47-49e0-40e5-b291-ce5fe282ed91.png",
     tickets: "#",
     reservations: "#"
   }
