@@ -4,7 +4,7 @@ const eventsData = [
     day: "THU",
     time: "8:00 PM",
     artist: "Rodriguez Jr. / Ben Arsenal",
-    image: "images/events/event_4_600x800.jpg",
+    image: "images/Events/event_4_600x800.jpg",
     tickets: "https://www.tixr.com/groups/thebarbary/events/rodriguez-jr-ben-arsenal-143340",
     reservations: "#"
   },
@@ -22,7 +22,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "Francisco Allendes / Solar Sounds",
-    image: "images/events/fa.jpg",
+    image: "images/Events/fa.jpg",
     tickets: "https://www.tixr.com/groups/thebarbary/events/francisco-allendes-solar-sounds-heph-145077",
     reservations: "#"
   },
@@ -31,7 +31,7 @@ const eventsData = [
     day: "FRI",
     time: "10:00 PM",
     artist: "The Bounce / Diamond District",
-    image: "images/events/dd.jpg",
+    image: "images/Events/dd.jpg",
     tickets: "https://www.tixr.com/groups/thebarbary/events/the-bounce-diamond-district-145957",
     reservations: "#"
   },
@@ -49,7 +49,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "MAUR / REALTY RECS / JITSU",
-    image: "images/events/maur.jpg",
+    image: "images/Events/maur.jpg",
     tickets: "#",
     reservations: "#"
   },
@@ -58,7 +58,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "The Shakedown: Musclecars",
-    image: "images/events/muscle.jpg",
+    image: "images/Events/muscle.jpg",
     tickets: "#",
     reservations: "#"
   },
@@ -67,7 +67,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "Anthony Attalla / Oscar N",
-    image: "images/events/aa.jpg",
+    image: "images/Events/aa.jpg",
     tickets: "#",
     reservations: "#"
   },
@@ -76,7 +76,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "Gene Farris / REALTY RECORDS",
-    image: "images/events/gene.jpg",
+    image: "images/Events/gene.jpg",
     tickets: "#",
     reservations: "#"
   },
@@ -85,7 +85,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "Enamour / The Shakedown",
-    image: "images/events/enamour.jpg",
+    image: "images/Events/enamour.jpg",
     tickets: "#",
     reservations: "#"
   },
@@ -94,7 +94,7 @@ const eventsData = [
     day: "SAT",
     time: "10:00 PM",
     artist: "Justin Martin / Luna Mar / IN",
-    image: "images/events/jm.jpg",
+    image: "images/Events/jm.jpg",
     tickets: "#",
     reservations: "#"
   },
