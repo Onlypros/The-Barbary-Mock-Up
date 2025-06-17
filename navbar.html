@@ -1,9 +1,14 @@
 <nav class="navbar navbar-expand-lg custom-navbar navbar-dark fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">The Barbary</a>
+
+    <!-- ✅ Mobile GET TICKETS button -->
+    <a href="https://www.tixr.com/groups/thebarbary/" target="_blank" class="btn btn-main fw-bold d-lg-none me-2">GET TICKETS</a>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="mainNavbar">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -14,16 +19,14 @@
         <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
+      
+      <!-- ✅ Social icons + desktop GET TICKETS button -->
       <div class="d-flex align-items-center gap-3 ms-4">
         <a href="https://www.instagram.com/the_barbary/?hl=en" target="_blank" class="text-white fs-5"><i class="fab fa-instagram"></i></a>
         <a href="https://www.facebook.com/thebarbary/" target="_blank" class="text-white fs-5"><i class="fab fa-facebook"></i></a>
         <a href="https://x.com/thebarbary?lang=en" target="_blank" class="text-white fs-5"><i class="fab fa-x-twitter"></i></a>
-        <a href="https://www.tixr.com/groups/thebarbary/" target="_blank" class="btn btn-main fw-bold px-3">GET TICKETS</a>
+        <a href="https://www.tixr.com/groups/thebarbary/" target="_blank" class="btn btn-main fw-bold px-3 d-none d-lg-inline">GET TICKETS</a>
       </div>
     </div>
   </div>
 </nav>
-git mv Index.html temp.html           # rename temporarily
-git mv temp.html index.html           # rename back to correct casing
-git commit -m "Fix case: Index.html → index.html"
-git push

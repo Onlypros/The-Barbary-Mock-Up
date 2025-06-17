@@ -12,6 +12,70 @@
   right: 0;
   z-index: 9999;
   box-shadow: none;
+  transition: background-color 0.4s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+/* 🔄 Mobile layout: background + collapse style + top button layout */
+@media (max-width: 991.98px) {
+  .custom-navbar {
+    background-color: #000000 !important;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar-brand {
+    order: 0;
+  }
+
+  .custom-navbar .btn-main {
+    order: 1;
+    margin-right: 0.5rem;
+    font-size: 0.85rem;
+    padding: 0.4rem 1rem;
+    white-space: nowrap;
+    display: inline-block;
+  }
+
+  .navbar-toggler {
+    order: 2;
+  }
+
+  .navbar-collapse {
+    background-color: #000000 !important;
+    width: 100vw;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    padding: 1.5rem 1.25rem 2rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+    z-index: 999;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 0;
+  }
+
+  .navbar-nav {
+    margin-top: 1rem;
+  }
+
+  /* 👥 Social icons in a row under Contact */
+  .navbar-collapse .d-flex {
+    flex-direction: row !important;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
 }
 
 /* ✅ Page padding for all non-index pages */
@@ -22,10 +86,12 @@
 /* ✅ Make navbar links white by default */
 .navbar-nav .nav-link {
   color: #ffffff !important;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
+  transition: color 0.3s ease, text-shadow 0.3s ease, border-bottom 0.2s ease;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
 }
 
-/* ✅ Highlight active nav/footer links (clean + glow, no underline) */
+/* ✅ Highlight active nav/footer links */
 .footer .footer-link.active,
 .navbar-nav .nav-link.active {
   color: #ffcc00 !important;
@@ -35,15 +101,7 @@
   border-bottom: 2px solid transparent;
 }
 
-/* ✨ Base nav link style */
-.navbar-nav .nav-link {
-  color: #ffffff !important;
-  transition: color 0.3s ease, text-shadow 0.3s ease, border-bottom 0.2s ease;
-  border-bottom: 2px solid transparent;
-  padding-bottom: 2px; /* prevents layout shift on hover */
-}
-
-/* ✨ Hover effect: white + subtle glow + underline */
+/* ✨ Hover effect */
 .navbar-nav .nav-link:hover {
   color: #ffffff;
   text-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
@@ -60,7 +118,6 @@
   outline: 2px dashed #ffcc00;
   outline-offset: 3px;
 }
-
 
 /* ===============================
    🎞️ Carousel Transitions
@@ -94,7 +151,6 @@ button:hover,
   transform: scale(1.03);
 }
 
-/* Optional overrides for layout-specific tweaks */
 .btn-main {
   /* Inherits global button styling */
 }
@@ -111,7 +167,6 @@ footer.footer {
   background-color: #121212;
 }
 
-/* ✅ Footer nav links hover effect + clickability */
 .footer .footer-link {
   color: #fff;
   display: inline-block;
